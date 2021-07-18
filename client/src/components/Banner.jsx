@@ -25,10 +25,10 @@ const Banner = () => {
                     </p><br/><br/><br/>
                 </div>
                 <div className="icons">                
-                    <a href="www.facebook.com" ><FontAwesomeIcon className='facebook' size="2x" icon={faFacebook}/></a>
-                    <a href="wwww.twitter.com" ><FontAwesomeIcon className='twitter' size="2x" icon={faTwitter}/></a>
-                    <a href="www.instagram.com" ><FontAwesomeIcon className='instagram' size="2x" icon={faInstagram}/></a>
-                    <a href="www.youtube.com" ><FontAwesomeIcon className='youtube' size="2x" icon={faYoutube}/></a>
+                    <a href="https://www.facebook.com/Ranjzit.gurung.73" ><FontAwesomeIcon className='facebook' size="2x" icon={faFacebook}/></a>
+                    <a href="https://twitter.com/RanjitGurung13" ><FontAwesomeIcon className='twitter' size="2x" icon={faTwitter}/></a>
+                    <a href="https://www.instagram.com/ranjzit_gurung/" ><FontAwesomeIcon className='instagram' size="2x" icon={faInstagram}/></a>
+                    <a href="https://www.youtube.com/channel/UCR4C8Gf9E4fREG9IiUtM3cg" ><FontAwesomeIcon className='youtube' size="2x" icon={faYoutube}/></a>
                 </div>
 
                 
