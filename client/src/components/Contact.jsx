@@ -50,21 +50,21 @@ export class Contact extends Component {
                             Tudikhel marga
                         </p>
                     </div>
-                    <div className='box1'>
+                    <div className='box2'>
                         <FontAwesomeIcon className='location' size="2x" icon={faPhone}/>
                         <h1>Phone</h1>
                         <p className= 'ad'>
                             +9779856012929
                         </p>
                     </div>
-                    <div className='box1'>
+                    <div className='box3'>
                         <FontAwesomeIcon className='location' size="2x" icon={faMailBulk}/>
                         <h1>Email</h1>
                         <p className= 'ad'>
                             gurungranjit39@gmail.com
                         </p>
                     </div>
-                    <div className='box1'>
+                    <div className='box4'>
                         <FontAwesomeIcon className='location' size="2x" icon={faGoogle}/>
                         <h1>Website</h1>
                         <p className= 'ad'>

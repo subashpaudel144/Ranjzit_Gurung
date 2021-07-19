@@ -12,9 +12,10 @@
 
 .pdetails{
     display:flex;
+    flex-direction: row;
 }
 
-.contact .pdetails .box1{
+.contact .pdetails .box1,.box2,.box3,.box4{
     height: 35vh;
     width: 35vh;
     background-color:rgb(67, 69, 70); 
@@ -32,7 +33,7 @@
     color:white;
 }
 
-.contact .pdetails .box1 h1{
+.contact .pdetails  h1{
     color: white;
     margin-bottom: 0%;
     
