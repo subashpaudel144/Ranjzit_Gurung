@@ -1,0 +1,22 @@
+.insta{
+    background-color: whitesmoke;
+    text-align: center;
+    margin-bottom: 4%;
+    
+}
+
+.insta h1{
+    font-size: 2.5rem;
+    color:darkblue;
+}
+
+.insta p{
+    font-size: 1.5rem;
+    color:rgb(10, 80, 192)
+}
+
+.insta img{
+    width:48vh;
+    border-radius: 20px;
+}
+
