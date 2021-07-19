@@ -5,6 +5,7 @@
     background-position: center center;
     background-size: cover;
     position: relative;
+    margin-top: 0%;
 }
 
 .Banner .Banner-info{
@@ -81,12 +82,14 @@
     background-color: white;
     border-radius: 50%;
     border: 3px solid white;
+    color: rgb(5, 117, 209);
 }
 
 .Banner .Banner-info .icons .instagram{
     background-color: white;
     border-radius: 30%;
     border: 2px solid white;
+    color: purple;
 }
 
 .Banner .Banner-info .icons .youtube{

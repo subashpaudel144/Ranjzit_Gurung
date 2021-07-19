@@ -6,6 +6,8 @@ import Home from './components/Home';
 import Gallery from './components/Gallery';
 
 
+
+
 export class App extends Component {
   render() {
     return (
