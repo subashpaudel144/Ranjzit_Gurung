@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Banner from './Banner';
+import Footer from './Footer';
 import './css/Contact.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -83,11 +84,9 @@ export class Contact extends Component {
 
                 </div>
                 </form>
-                <p className='footer'>
-                    @Copyright: Ranjzit Gurung.. Quality videographer and photographer.....
-                </p>       
-
-            </div>
+                <Footer />
+                </div>
+                
         );
     }
 }

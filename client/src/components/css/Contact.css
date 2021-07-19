@@ -17,9 +17,9 @@
 
 .contact .pdetails .box1,.box2,.box3,.box4{
     height: 35vh;
-    width: 35vh;
+    width: 40vh;
     background-color:rgb(67, 69, 70); 
-    margin-left: 6%;
+    margin-left: 4%;
     text-align: center;
     justify-content: center;
     display:flex;
@@ -44,10 +44,6 @@
     font-size: 1.5rem;
 }
 
-.footer{
-    margin-top: 3%;
-    font-size: 1.5rem;
-}
 .contact .message{
     margin-top: 7%;
     margin-left: 6%;
@@ -81,8 +77,3 @@
     background-color: lightcoral;
 }
 
-.contact .footer{
-    text-align: center;
-    font-style: italic;
-    background-color: lightcoral;
-}
