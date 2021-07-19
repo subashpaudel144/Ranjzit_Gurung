@@ -20,13 +20,6 @@ export class Personal extends Component {
             address.
           </p>
         </div>
-        <div className='footer'>
-        <p>
-          @Copyright: Ranjzit Gurung.. Quality videographer and
-          photographer.....
-        </p>
-        
-      </div>
     </div>
      
     );

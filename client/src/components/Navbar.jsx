@@ -23,11 +23,11 @@ class Navbars extends React.Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav>
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link eventKey={3} href="/gallery">
+                <Nav.Link className='nav' href="/">Home</Nav.Link>
+                <Nav.Link className='nav' eventKey={3} href="/gallery">
                   Gallery
                 </Nav.Link>
-                <Nav.Link eventKey={2} href="/contact">
+                <Nav.Link className='nav' eventKey={2} href="/contact">
                   Contact
                 </Nav.Link>
                 
