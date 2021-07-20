@@ -15,11 +15,12 @@
     flex-direction: row;
 }
 
-.contact .pdetails .box1,.box2,.box3,.box4{
+/* .contact .pdetails .box1,.box2,.box3,.box4{
     height: 35vh;
     width: 40vh;
     background-color:rgb(67, 69, 70); 
     margin-left: 4%;
+    margin-right: 15%;
     text-align: center;
     justify-content: center;
     display:flex;
@@ -27,10 +28,16 @@
     align-items: center;
     border-radius: 10%;
 
+} */
+
+.location {
+    color:white;
+    align-self: center;
 }
 
-.location{
-    color:white;
+.contact .pdetails{
+    justify-content: center;
+    
 }
 
 .contact .pdetails  h1{

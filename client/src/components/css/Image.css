@@ -1,8 +1,8 @@
-img{
-    height: 55vh;
-    width: 65.1vh;
+.image img{
+    height: 70vh;
+    width: 50vh;
     padding: 5px 5px;
-    border-radius: 2%;
+    border-radius: 20px;
 
 }
 
@@ -16,6 +16,7 @@ img{
 .image{
     text-align: center;
     background-color: rgb(240, 242, 247);
+    margin-top: 2%;
 }
 
 .image a{

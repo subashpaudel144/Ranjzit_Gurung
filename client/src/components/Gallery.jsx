@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import Address from './Address';
 
 export class Gallery extends Component {
     render() {
         return (
             <div>
-                <h1>Gallery Component</h1>
+                <Address /> <Address />
+                
             </div>
         )
     }

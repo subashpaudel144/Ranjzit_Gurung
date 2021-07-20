@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Banner from './Banner';
 import Footer from './Footer';
+import {Card} from 'react-bootstrap'
 import './css/Contact.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -43,35 +44,35 @@ export class Contact extends Component {
                     </p>
                 </div> 
                 <div className='pdetails'>
-                    <div className='box1'>
+                    <Card className="bg-dark m-2 p-3 text-center round">
                         <FontAwesomeIcon className='location' size="2x" icon={faLocationArrow}/>
                         <h1>Address</h1>
                         <p className= 'ad'>
                             Pokhara-1, Bagar<br/>
                             Tudikhel marga
                         </p>
-                    </div>
-                    <div className='box2'>
+                    </Card>
+                    <Card className="bg-dark m-2 p-3 text-center">
                         <FontAwesomeIcon className='location' size="2x" icon={faPhone}/>
                         <h1>Phone</h1>
                         <p className= 'ad'>
                             +9779856012929
                         </p>
-                    </div>
-                    <div className='box3'>
+                    </Card>
+                    <Card className="bg-dark m-2 p-3 text-center">
                         <FontAwesomeIcon className='location' size="2x" icon={faMailBulk}/>
                         <h1>Email</h1>
                         <p className= 'ad'>
                             gurungranjit39@gmail.com
                         </p>
-                    </div>
-                    <div className='box4'>
+                    </Card>
+                    <Card className="bg-dark m-2 p-3 text-center">
                         <FontAwesomeIcon className='location' size="2x" icon={faGoogle}/>
                         <h1>Website</h1>
                         <p className= 'ad'>
-                            www.ranjzitgrg.com.np
+                            www.ranjitgurung.com.np
                         </p>
-                    </div>
+                    </Card>
                         
                 </div>
                 <form onSubmit={sendEmail}>
