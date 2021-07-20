@@ -17,7 +17,10 @@
 }
 
 .insta img{
-    width:48vh;
+    width:50vh;
     border-radius: 20px;
+    height: 60vh;
+    padding: 5px;
+
 }
 
