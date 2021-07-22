@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/Banner.css';
-import image from './images/ranjzitgrg.jpg';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faFacebook,
@@ -16,9 +16,9 @@ const Banner = () => {
         <div className = 'Banner'>
             <div className='Banner-info'>
                 <div className='details'>
-                    <img src={image} alt="ranjit" />
-                    <h2>I'm Ranjzit Gurung</h2><br/>
-                    <a  className='photographer' href='#Services'>Photographer | Traveller</a><br/><br/>
+                    {/* <img src={image} alt="ranjit" /> */}
+                    <h2>I'm Ranjit Gurung</h2><br/>
+                    <a  className='photographer' href='#Services'>Photographer | Videoshooter | Visual Editor</a><br/><br/>
                     <p>
                         "Photography is a way of feeling, of touching, of loving, what you have caught on film is captured 
                         forever...<br/> It remember little things, long after you have forgotten everything."

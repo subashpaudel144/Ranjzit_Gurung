@@ -6,7 +6,7 @@ export class Personal extends Component {
     return (
       <div className="last">
         <div className="desc">
-          <h1>RANJZIT GURUNG</h1>
+          <h1>RANJIT GURUNG</h1>
           <p>
             I am Ranjzit Gutung from syangjya and I am currently working on
             shooting vidoes and photographs.
