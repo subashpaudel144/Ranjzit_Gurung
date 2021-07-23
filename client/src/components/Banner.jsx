@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/Banner.css';
+import { Image } from 'react-bootstrap';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -16,7 +17,7 @@ const Banner = () => {
         <div className = 'Banner'>
             <div className='Banner-info'>
                 <div className='details'>
-                    {/* <img src={image} alt="ranjit" /> */}
+                    <img src="/images/ranjzitgrg.jpg" alt="ranjit" />
                     <h2>I'm Ranjit Gurung</h2><br/>
                     <a  className='photographer' href='#Services'>Photographer | Videoshooter | Visual Editor</a><br/><br/>
                     <p>
